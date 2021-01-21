@@ -1,6 +1,4 @@
 # RPA-Developer-with-Uipath-Nanodegree_Invoice-Scraping
-A process that will scrape relevant data from the invoices for further processing.The Robot will read through emails and download the invoices received in the form of an email attachment as a PDF. It will extract specific data and store those values in an Excel spreadsheet and a subset of values will be uploaded to the Orchestrator Queue. And finally, the robot will email the spreadsheet to yourself when finished.
-
 Project Steps:
 - Program a Robot that will “Read the last unread emails” from your mail.
 - Program a Robot that will download all the attachments with a naming convention of CustomerName_InvoiceDate_InvoiceNumber.pdf file from the mail with the subject line Techno    Computers.
