@@ -6,21 +6,21 @@ Project Steps:
 - Program a Robot that will download all the attachments with a naming convention of CustomerName_InvoiceDate_InvoiceNumber.pdf file from the mail with the subject line Techno    Computers.
 - Program a Robot to save the attachment files in the data folder which has already been created or create it in the Project directory.
 - Program a Robot that will “extract the relevant fields from the document”:
- - InvoiceNo.
- - InvoiceDate.
- - Order Information.
- - ItemNo.
- - Description.
- - Quantity.
- - Price.
- - SubTotal.
- - GST.
- - Total.
+  - InvoiceNo.
+  - InvoiceDate.
+  - Order Information.
+  - ItemNo.
+  - Description.
+  - Quantity.
+  - Price.
+  - SubTotal.
+  - GST.
+  - Total.
 - Program a Robot to save the all Order Information details into an excel sheet and save the excel sheet as “CustomerName_InvoiceNumber.xlsx”
 - Program the bot to upload the following Order Information details to the Orchestrator Queue:
- - SubTotal.
- - GST.
- - Total.
+  - SubTotal.
+  - GST.
+  - Total.
 - Program the bot to email the excel file as an attachment to yourself with the subject line as “Course 2 Automation: CustomerName_InvoiceNumber details uploaded to queue”.
 - Repeat Step 4-7 for the remaining invoices.
 - Program the robot to successfully end if all the attachments downloaded from the mail in Step 2 are processed.
